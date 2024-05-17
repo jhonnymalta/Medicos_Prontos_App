@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{64B1031B-C7F4-481C-BD50-5C57CF176022}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{9397273A-11A9-4DC2-99E3-A0E43CCC2D2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{ADB06693-0BFD-40F0-A501-2BC93BC29950}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cliente", "Cliente", "{4CFC78B1-6B32-447D-BDA2-7AA53C7A23A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MP.Clientes.API", "MP.Clientes.API\MP.Clientes.API.csproj", "{BC0ECFEE-E29C-4A27-B557-96981AB54601}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Agenda", "Agenda", "{43F4C9E4-7DFA-47DC-AA20-3B794F110A67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MP.Agenda.API", "MP.Agenda.API\MP.Agenda.API.csproj", "{EDCB3567-1CFB-42E6-BC0E-D0D905FD430F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC0ECFEE-E29C-4A27-B557-96981AB54601}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC0ECFEE-E29C-4A27-B557-96981AB54601}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC0ECFEE-E29C-4A27-B557-96981AB54601}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC0ECFEE-E29C-4A27-B557-96981AB54601}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDCB3567-1CFB-42E6-BC0E-D0D905FD430F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDCB3567-1CFB-42E6-BC0E-D0D905FD430F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDCB3567-1CFB-42E6-BC0E-D0D905FD430F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDCB3567-1CFB-42E6-BC0E-D0D905FD430F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9397273A-11A9-4DC2-99E3-A0E43CCC2D2D} = {64B1031B-C7F4-481C-BD50-5C57CF176022}
+		{ADB06693-0BFD-40F0-A501-2BC93BC29950} = {64B1031B-C7F4-481C-BD50-5C57CF176022}
+		{4CFC78B1-6B32-447D-BDA2-7AA53C7A23A7} = {9397273A-11A9-4DC2-99E3-A0E43CCC2D2D}
+		{BC0ECFEE-E29C-4A27-B557-96981AB54601} = {4CFC78B1-6B32-447D-BDA2-7AA53C7A23A7}
+		{43F4C9E4-7DFA-47DC-AA20-3B794F110A67} = {9397273A-11A9-4DC2-99E3-A0E43CCC2D2D}
+		{EDCB3567-1CFB-42E6-BC0E-D0D905FD430F} = {43F4C9E4-7DFA-47DC-AA20-3B794F110A67}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {054505F4-2622-4AF7-B4AB-FC85F9A159B5}
+	EndGlobalSection
+EndGlobal
